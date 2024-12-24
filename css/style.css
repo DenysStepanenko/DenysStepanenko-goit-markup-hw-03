@@ -45,7 +45,7 @@ p {
 h3+p {
    margin-top: 8px;
 }
-.section {
+section {
    padding-top: 120px;
    padding-bottom: 120px;
 }
@@ -201,7 +201,7 @@ h3+p {
    flex-wrap: wrap;
    gap: 24px;
 }
-.table {
+.list {
    width: calc((100% - 72px) / 4);
 }
 
@@ -209,7 +209,7 @@ h3+p {
    background-color: #f4f4fd;
 }
 
-.section-third .table {
+.section-third .list {
    background-color: #ffffff;
 }
 
