@@ -6,8 +6,8 @@
 }
 .container {
    max-width: 1158px;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding-left:15px;
+   padding-right:15px;
    margin-left: auto;
    margin-right:auto;
 }
@@ -33,6 +33,9 @@ ol {
    margin: 0;
    padding-left: 0;
 }
+img {
+   display:block;
+}
 h1,
 h2,
 h3,
@@ -50,6 +53,9 @@ section {
    padding-bottom: 120px;
 }
 
+.page-header {
+   border-bottom: 1px solid #e7e9fc;
+}
 .page-header .container {
    display: flex;  
    justify-content: space-between;
@@ -72,6 +78,9 @@ section {
    display: flex;
    gap: 40px;
    margin: 0;
+   align-items: center;
+   padding-top: 24px;
+   padding-bottom: 24px;
  } 
 
 .address-info {
@@ -120,10 +129,12 @@ section {
 
 .section-first {  
    background-color: #2E2F42;
+   padding-top: 188px;
+   padding-bottom: 188px;
 }
 .page-title {
    display: block;
-   width: 496px;
+   max-width: 496px;
    padding: 0;
    margin-top: 188px;
    margin-right: auto;
@@ -147,6 +158,9 @@ section {
       margin-right: auto;
       margin-bottom: 188px;
       margin-left: auto;
+      min-width: 169px;
+      height: 56px;
+      border: none;
    font-family: "Roboto", sans-serif;
    cursor: pointer;
    background-color: #4D5AE5;
@@ -177,7 +191,7 @@ section {
    text-align: center;
    color: #2e2f42;
 }
-#title-section-stwo {
+.visually-hidden {
    display: none;
    font-size: 36px;
    line-height: 1.11;
@@ -201,7 +215,7 @@ section {
    flex-wrap: wrap;
    gap: 24px;
 }
-.list {
+.table-sc {
    width: calc((100% - 72px) / 4);
 }
 
@@ -209,7 +223,7 @@ section {
    background-color: #f4f4fd;
 }
 
-.section-third .list {
+.section-third .table-sc {
    background-color: #ffffff;
 }
 
