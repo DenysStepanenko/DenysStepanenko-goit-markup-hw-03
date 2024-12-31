@@ -228,8 +228,14 @@ section {
    background-color: #f4f4fd;
 }
 
-.section-third .table-sc {
+.section-third .table-sc,
+.section-two .services {
    background-color: #ffffff;
+   margin-right: 0;
+}
+.section-third .services,
+.section-two .services {
+   margin-right: 24px;
 }
 
 .third-title {
@@ -252,7 +258,9 @@ section {
    display: block;
    width: 264px;
 }
-
+.section-fourt .third-title {
+   margin-bottom: 8px;
+}
 .text-p {
    font-size: 16px;
    line-height: 1.5;
