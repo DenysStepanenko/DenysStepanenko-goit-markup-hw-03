@@ -60,8 +60,9 @@ section {
    display: flex;  
    justify-content: space-between;
    padding-top: 25px;
+   padding-right: 15px;
    padding-bottom: 25px;
-   
+   padding-left: 15px;
    
 }
 .logo {
