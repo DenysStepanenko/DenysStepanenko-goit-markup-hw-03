@@ -6,8 +6,7 @@
 }
 .container {
    max-width: 1158px;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding: 0 15px;
    margin-left:auto;
    margin-right:auto;
 }
@@ -195,15 +194,8 @@ section {
    color: #2e2f42;
 }
 .visually-hidden {
-   position: absolute; /* Відділяє елемент від потоку сторінки */
-      width: 1px; /* Робить його дуже маленьким */
-      height: 1px; /* Аналогічно для висоти */
-      padding: 0; /* Забирає внутрішні відступи */
-      margin: -1px; /* Забирає зовнішні відступи */
+      width: 0; /* Робить його дуже маленьким */
       overflow: hidden; /* Ховає все, що виходить за межі */
-      clip: rect(0, 0, 0, 0); /* Приховує вміст за межами видимої області */
-      white-space: nowrap; /* Текст не переноситься на новий рядок */
-      border: 0;
 }
 .section-first .container,
 .section-two   .container,
