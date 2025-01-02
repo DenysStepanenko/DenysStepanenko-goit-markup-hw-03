@@ -56,7 +56,8 @@ section {
    border-bottom: 1px solid #e7e9fc;
 }
 .page-header .container {
-   display: flex;  
+   display: flex;
+   text-align: center;
    justify-content: space-between;
    padding-right: 15px;
    padding-left: 15px;
@@ -85,6 +86,7 @@ section {
    display: flex;
    gap: 40px;
    margin: 0;
+   font-style: normal;
 
 }
 .header-logo {
@@ -96,6 +98,7 @@ section {
 }
 
 .link {
+   display: inline-block;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
@@ -115,10 +118,15 @@ section {
 }
 
 .contacts {
+   display: inline-block;
    color: #434455;
+   font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-}
+   color: #2E2F42;
+   padding-top: 24px;
+   padding-bottom: 24px;
+} 
 
 .address-info .contacts:hover,
 .address-info .contacts:focus {
@@ -127,50 +135,49 @@ section {
 
 
 
-.section-first {  
+.section-first { 
    background-color: #2E2F42;
-   padding-top: 188px;
-   padding-bottom: 188px;
+   padding-top: 0;
+   padding-bottom: 0;
+   
 }
 .page-title {
-   display: block;
    max-width: 496px;
-   padding: 0;
-   margin-top: 188px;
-   margin-right: auto;
-   margin-left: auto;
-   margin-bottom: 48px;
-   line-height: 1.07;
-   font-weight: 700;
-   font-size: 56px;
-   letter-spacing: 0.02em;
-   text-align: center;
-   color: #ffffff;
-}
+      padding-top: 188px;
+      padding-bottom: 48px;
+      margin-right: auto;
+      margin-left: auto;
+      line-height: 1.07;
+      font-weight: 700;
+      font-size: 56px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #ffffff;
+   }
+
 
 
 
 .button {
-   display: block;
+   display: inline-block;
       border-radius: 4px;
       padding: 16px 32px;
-      margin-top: auto;
       margin-right: auto;
       margin-bottom: 188px;
       margin-left: auto;
       min-width: 169px;
       height: 56px;
       border: none;
-   font-family: "Roboto", sans-serif;
-   cursor: pointer;
-   background-color: #4D5AE5;
-   color: #ffffff;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 1.5;
-   letter-spacing: 0.04em;
-   width: 169;
-}
+      font-family: "Roboto", sans-serif;
+      cursor: pointer;
+      background-color: #4D5AE5;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      width: 169;
+   }
 
 
 .button:hover,
@@ -178,7 +185,7 @@ section {
    background-color: #404BBF;
 }
 .secondary-title {
-   display:block;
+   display: block;
    width: 162px;
    padding: 0;
    margin-right: auto;
@@ -204,10 +211,11 @@ section {
    overflow: hidden;
 }
 .section-first .container,
-.section-two   .container,
+.section-two  .container,
 .section-third .container,
 .section-fourt .container  {
    display:block;
+   text-align: center;
    margin-left: auto;
    margin-right: auto;
 }
