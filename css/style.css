@@ -64,14 +64,15 @@ section {
    gap: 76px;
 }
 .logo {
-   display:inline-block;
-   font-family: "Raleway", sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #4d5ae5; 
+   margin-right: 76px;
+      text-decoration: none;
+      color: #4d5ae5;
+      font-size: 18px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
 }
 .items { 
    display: flex;
@@ -122,7 +123,7 @@ section {
 }
 .section-first {
    background-color: #2E2F42;
-   height: 600px;
+   padding: 188px 0;
 }
 .section-first .container {
    display: flex;
@@ -167,7 +168,7 @@ section {
 .secondary-title {
    display:inline-block;
    width: 162px;
-   padding-bottom: 72px;
+   margin-bottom: 72px;
    line-height: 1.11;
    font-weight: 500;
    letter-spacing: 0.02em;
@@ -193,6 +194,12 @@ section {
    gap: 24px;
    row-gap: 48px;
 }
+.text-name {
+   display: block;
+   text-align: center;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
 .section-third,
 .section-fourt {
    text-align: center;
@@ -201,7 +208,12 @@ section {
 .section-third .table-sc,
 .section-two .table-sc {
    background-color: #ffffff;
-   margin:0;
+   margin-right: 0;
+}
+.section-third .services,
+.section-two .services {
+   margin-right: 24px;
+   gap: 24px;
 }
 .third-title {
    margin:0;
@@ -210,15 +222,17 @@ section {
    font-weight: 500;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   text-align: center;
+   margin-bottom: 8px
 }
 .portfolio {
       flex-basis: calc((100% - 48px) / 3);
       background-color: #fff;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
       display: flex;
       flex-direction: column;
       gap: 8px;
-      border-radius: 0px 0px 4px 4px;
+      border-radius: 0px 0px 4px 4px; */
 } 
 .section-third .table-sc {
    background-color: #fff;
@@ -238,22 +252,30 @@ section {
 }
 .text-p {
    margin: 0;
+   padding: 0;
    font-size: 16px;
    line-height: 1.5;
    font-weight: 400;
    color: #434455;
    letter-spacing: 0.02em;
+   text-align: center;
 }
-   .footer .container {
-         display: flex;
-         flex-direction: column;
-         align-items: flex-start;
-         gap: 16px;
-         padding-top: 100px;
-         padding-bottom: 100px;
-            
+.container-list {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+   margin-bottom: 8px;
+}
+
+.footer .logo {
+   display: inline-block;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 16px;
+   margin-left: 0;
 }
 .footer {
+   padding: 100px 0;
    background-color: #2E2F42;
 }
 .text-footer {
