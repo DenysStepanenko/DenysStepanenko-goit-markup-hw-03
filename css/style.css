@@ -137,9 +137,7 @@ section {
    align-items: center;
 }
 .page-title {
-   display: inline-block;
    max-width: 496px;
-      padding-top: 68px;
       margin-bottom: 48px;
       line-height: 1.07;
       font-weight: 700;
@@ -172,10 +170,11 @@ section {
 }
 
 .secondary-title {
-   display:inline-block;
-      width: 162px;
+   width: 162px;
       padding: 0;
+      margin-right: auto;
       margin-bottom: 72px;
+      margin-left: auto;
       line-height: 1.11;
       font-weight: 500;
       letter-spacing: 0.02em;
