@@ -170,11 +170,8 @@ section {
 }
 
 .secondary-title {
-   width: 162px;
       padding: 0;
-      margin-right: auto;
       margin-bottom: 72px;
-      margin-left: auto;
       line-height: 1.11;
       font-weight: 500;
       letter-spacing: 0.02em;
