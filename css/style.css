@@ -170,17 +170,20 @@ section {
 .button:focus {
    background-color: #404BBF;
 }
+
 .secondary-title {
    display:inline-block;
-   width: 162px;
-   margin-bottom: 72px;
-   line-height: 1.11;
-   font-weight: 500;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-   color: #2e2f42;
-   text-align: center;
-}
+      width: 162px;
+      padding: 0;
+      margin-bottom: 72px;
+      line-height: 1.11;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      text-align: center;
+      color: #2e2f42;
+   }
+
 .visually-hidden {
    position: absolute;
    width: 1px;
@@ -193,6 +196,7 @@ section {
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
+
 .services {
    display: flex;
    max-width: 100%;
@@ -206,12 +210,13 @@ section {
    text-align: center;
   padding: 32px 0;
 }
-.section-third {
-   display: block;
+.section-third,
+.section-fourt {
    text-align: center;
+}
+.section-third {
    background-color: #f4f4fd;
 }
-
 .section-third .table-sc,
 .section-two .table-sc {
    background-color: #ffffff;
@@ -231,16 +236,10 @@ section {
    margin-bottom: 8px;
    text-align: center;
 }
-.section-fourt {
-   display: block;
-   text-align: center;
-  
-}
+
 .portfolio {
-   display: block;
-   background-color: #fff;
-}
-.portfolio {
+      display: block;
+      background-color: #fff;
       flex-basis: calc((100% - 48px) / 3);
       
       /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -255,7 +254,7 @@ section {
    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
    display: flex;
    flex-direction: column;
-   gap: 8px;
+   /* gap: 8px; */
    border-radius: 0px 0px 4px 4px;
 }
 .table-sc {
@@ -273,7 +272,10 @@ font-size: 16px;
    color: #434455;
    letter-spacing: 0.02em;
 }
-.section-fourt .text-p {
+.section-fourt .text-p,
+.section-fourt .third-title,
+.section-two .third-title {
+   text-align: left;
    padding: 0;
 }
 .container-list {
