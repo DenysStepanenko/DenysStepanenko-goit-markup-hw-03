@@ -170,7 +170,7 @@ section {
 }
 
 .secondary-title {
-   max-width: 162px;
+   width: 162px;
    height: 40px;
       padding: 0;
       margin:0 auto 72px auto;
@@ -182,7 +182,7 @@ section {
       color: #2e2f42;
    }
 .section-fourt .secondary-title {
-   max-width: 218px;
+   width: 218px;
    height: 40px;
 }
 .visually-hidden {
